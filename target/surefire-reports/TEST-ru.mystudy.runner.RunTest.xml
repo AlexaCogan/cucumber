@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="ru.mystudy.runner.RunTest" time="2.727" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="jdk.extensions.version" value="8.0.232.1"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\16676020\IdeaProjects\cucumber\target\test-classes;C:\Users\16676020\IdeaProjects\cucumber\target\classes;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\16676020\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;C:\Users\16676020\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\16676020\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\16676020\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\16676020\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\16676020\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\16676020\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\16676020\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\16676020\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\16676020\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\16676020\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\16676020\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\16676020\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\16676020\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\16676020\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\16676020\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\16676020\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\16676020\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\16676020\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="java.vendor.url" value="http://www.eclipse.org/openj9"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\16676020\AppData\Local\Temp\surefire9088104669322916203\surefirebooter1561232942923055531.jar C:\Users\16676020\AppData\Local\Temp\surefire9088104669322916203 2022-12-22T14-27-01_431-jvmRun1 surefire4926891387246071189tmp surefire_04401624113028944967tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\16676020\IdeaProjects\cucumber\target\test-classes;C:\Users\16676020\IdeaProjects\cucumber\target\classes;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-java\6.11.0\cucumber-java-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-core\6.11.0\cucumber-core-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-gherkin\6.11.0\cucumber-gherkin-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-gherkin-messages\6.11.0\cucumber-gherkin-messages-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\messages\15.0.0\messages-15.0.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\tag-expressions\3.0.1\tag-expressions-3.0.1.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-expressions\10.3.0\cucumber-expressions-10.3.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\datatable\3.5.0\datatable-3.5.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-plugin\6.11.0\cucumber-plugin-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\docstring\6.11.0\docstring-6.11.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\html-formatter\13.0.0\html-formatter-13.0.0.jar;C:\Users\16676020\.m2\repository\io\cucumber\create-meta\4.0.0\create-meta-4.0.0.jar;C:\Users\16676020\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\16676020\.m2\repository\io\cucumber\cucumber-testng\6.11.0\cucumber-testng-6.11.0.jar;C:\Users\16676020\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\16676020\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\16676020\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\16676020\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.0.0-M5\maven-surefire-plugin-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.0.0-M5\maven-surefire-common-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.0.0-M5\surefire-extensions-api-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\16676020\.m2\repository\org\apache\maven\maven-toolchain\3.0-alpha-2\maven-toolchain-3.0-alpha-2.jar;C:\Users\16676020\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.11.0\maven-artifact-transfer-0.11.0.jar;C:\Users\16676020\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.0.1\maven-common-artifact-filters-3.0.1.jar;C:\Users\16676020\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\16676020\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\16676020\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\16676020\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\16676020\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\16676020\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\16676020\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.1.0\maven-shared-utils-3.1.0.jar;C:\Users\16676020\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\16676020\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\16676020\.m2\repository\org\codehaus\plexus\plexus-java\1.0.5\plexus-java-1.0.5.jar;C:\Users\16676020\.m2\repository\org\ow2\asm\asm\7.2\asm-7.2.jar;C:\Users\16676020\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M9\qdox-2.0-M9.jar;C:\Users\16676020\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\16676020"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="file.separator" value="\"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="basedir" value="C:\Users\16676020\IdeaProjects\cucumber"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.awt.fonts" value=""/>
+    <property name="surefire.real.class.path" value="C:\Users\16676020\AppData\Local\Temp\surefire9088104669322916203\surefirebooter1561232942923055531.jar"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\bin\compressedrefs\jclSC180\vm.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\lib\se-service.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\lib\rt.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\lib\resources.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\lib\jsse.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\lib\charsets.jar;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\lib\jce.jar"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\bin"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.fullversion" value="1.8.0_232-b09&#10;JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20191106_498 (JIT enabled, AOT enabled)&#10;OpenJ9   - 77c1cf708&#10;OMR      - 20db4fbc1&#10;JCL      - 3504dff40aa based on jdk8u232-b09"/>
+    <property name="java.runtime.version" value="1.8.0_232-b09"/>
+    <property name="user.name" value="16676020"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="localRepository" value="C:\Users\16676020\.m2\repository"/>
+    <property name="java.io.tmpdir" value="C:\Users\16676020\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.version" value="1.8.0_232"/>
+    <property name="com.ibm.system.agent.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\bin"/>
+    <property name="user.dir" value="C:\Users\16676020\IdeaProjects\cucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="os.encoding" value="UTF8"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\bin\compressedrefs;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\apache-maven-3.8.4\bin;C:\oracle\product\12c\client\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Kaspersky Lab\Endpoint Agent\;C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\bin\;C:\Users\16676020\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20191106_498 (JIT enabled, AOT enabled)&#10;OpenJ9   - 77c1cf708&#10;OMR      - 20db4fbc1&#10;JCL      - 3504dff40aa based on jdk8u232-b09"/>
+    <property name="java.vm.version" value="openj9-0.17.0"/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="ibm.system.encoding" value="Cp1251"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="C:\Program Files\AdoptOpenJDK\jdk-8.0.232.09-openj9\jre\lib\ext"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[cucumber expressions]&quot;](1)" classname="ru.mystudy.runner.RunTest" time="0.535">
+    <system-out><![CDATA[Подключение к БД установленно
+Данные в БД добавлены
+before step
+целое число: 13
+after step
+before step
+дробно число: 13.5
+after step
+before step
+Строка: какой-то текст
+after step
+before step
+Слово: world
+after step
+Данные очищены
+Подключение к БД остановлено
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Передача коллекций в код автотеста]&quot;](2)" classname="ru.mystudy.runner.RunTest" time="0.041">
+    <system-out><![CDATA[Подключение к БД установленно
+Данные в БД добавлены
+before step
+1
+2
+3
+after step
+before step
+ключ 1 значение 1
+ключ 2 значение 2
+ключ 3 значение 3
+ключ 4 значение 4
+after step
+before step
+[колонка 1, колонка 2, колонка 3]
+[колонка 4, колонка 5, колонка 6]
+[колонка 7, колонка 8, колонка 9]
+after step
+Данные очищены
+Подключение к БД остановлено
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;Успешное снятие денег со счета&quot;, &quot;Optional[Снятие денег со счета]&quot;](3)" classname="ru.mystudy.runner.RunTest" time="0.009">
+    <system-out><![CDATA[Подключение к БД установленно
+Данные в БД добавлены
+before step
+after step
+before step
+after step
+before step
+after step
+Данные очищены
+Подключение к БД остановлено
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Передача многострочного текста]&quot;](4)" classname="ru.mystudy.runner.RunTest" time="0.025">
+    <system-out><![CDATA[Подключение к БД установленно
+Данные в БД добавлены
+before step
+Я Омск люблю легко и пылко,
+как любит всадника ишак.
+Мне Омск дороже, чем бутылка
+и сигарета натощак.
+
+На Луговых* украл гитару,
+со всем Захламиным* дружу…
+И по Казачьему базару
+с воровкой Эллочкой брожу.
+
+Я здесь любил и ненавидел,
+наследство мамы прокутил…
+Ты, Омск, сто раз меня обидел,
+и я тебе ещё не мстил.
+
+Кустов зелёные причёски
+вдоль всех бульваров и дорог…
+Но эта зелень — просто розги,
+что Омск выращивает впрок.
+after step
+Данные очищены
+Подключение к БД остановлено
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Проверка умножения]&quot;](5)" classname="ru.mystudy.runner.RunTest" time="0.013">
+    <system-out><![CDATA[Подключение к БД установленно
+Данные в БД добавлены
+before step
+2 + 2 = 4
+after step
+Данные очищены
+Подключение к БД остановлено
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Проверка умножения]&quot;](6)" classname="ru.mystudy.runner.RunTest" time="0.01">
+    <system-out><![CDATA[Подключение к БД установленно
+Данные в БД добавлены
+before step
+2 + 3 = 6
+after step
+Данные очищены
+Подключение к БД остановлено
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Проверка умножения]&quot;](7)" classname="ru.mystudy.runner.RunTest" time="0.01">
+    <system-out><![CDATA[Подключение к БД установленно
+Данные в БД добавлены
+before step
+3 + 3 = 9
+after step
+Данные очищены
+Подключение к БД остановлено
+]]></system-out>
+  </testcase>
+  <testcase name="runScenario[&quot;&quot;, &quot;Optional[Проверка умножения]&quot;](8)" classname="ru.mystudy.runner.RunTest" time="0.012">
+    <system-out><![CDATA[Подключение к БД установленно
+Данные в БД добавлены
+before step
+4 + 4 = 16
+after step
+Данные очищены
+Подключение к БД остановлено
+]]></system-out>
+  </testcase>
+</testsuite>

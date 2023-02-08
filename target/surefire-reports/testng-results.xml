@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="1554" started-at="2022-12-22T14:27:05 MSK" finished-at="2022-12-22T14:27:07 MSK">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ru.mystudy.runner.RunTest@cf9f759c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Surefire test" duration-ms="1554" started-at="2022-12-22T14:27:05 MSK" finished-at="2022-12-22T14:27:07 MSK">
+      <class name="ru.mystudy.runner.RunTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:ru.mystudy.runner.RunTest@cf9f759c]" name="setUpClass" is-config="true" duration-ms="755" started-at="2022-12-22T14:27:05 MSK" finished-at="2022-12-22T14:27:06 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ru.mystudy.runner.RunTest@cf9f759c]" name="runScenario" duration-ms="526" started-at="2022-12-22T14:27:06 MSK" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-22T14:27:07 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[cucumber expressions]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ru.mystudy.runner.RunTest@cf9f759c]" name="runScenario" duration-ms="35" started-at="2022-12-22T14:27:07 MSK" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-22T14:27:07 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Передача коллекций в код автотеста]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ru.mystudy.runner.RunTest@cf9f759c]" name="runScenario" duration-ms="19" started-at="2022-12-22T14:27:07 MSK" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-22T14:27:07 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Успешное снятие денег со счета"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Снятие денег со счета]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ru.mystudy.runner.RunTest@cf9f759c]" name="runScenario" duration-ms="19" started-at="2022-12-22T14:27:07 MSK" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-22T14:27:07 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Передача многострочного текста]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ru.mystudy.runner.RunTest@cf9f759c]" name="runScenario" duration-ms="13" started-at="2022-12-22T14:27:07 MSK" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-22T14:27:07 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Проверка умножения]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ru.mystudy.runner.RunTest@cf9f759c]" name="runScenario" duration-ms="7" started-at="2022-12-22T14:27:07 MSK" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-22T14:27:07 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Проверка умножения]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ru.mystudy.runner.RunTest@cf9f759c]" name="runScenario" duration-ms="12" started-at="2022-12-22T14:27:07 MSK" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-22T14:27:07 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Проверка умножения]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:ru.mystudy.runner.RunTest@cf9f759c]" name="runScenario" duration-ms="9" started-at="2022-12-22T14:27:07 MSK" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-12-22T14:27:07 MSK">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[""]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Проверка умножения]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:ru.mystudy.runner.RunTest@cf9f759c]" name="tearDownClass" is-config="true" duration-ms="46" started-at="2022-12-22T14:27:07 MSK" finished-at="2022-12-22T14:27:07 MSK">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- ru.mystudy.runner.RunTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

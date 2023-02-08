@@ -1,0 +1,5 @@
+ru\mystudy\stepDefinitions\CucumberExprStepdefs.class
+ru\mystudy\stepDefinitions\DataTableStepdefs.class
+ru\mystudy\stepDefinitions\MyStepdefs.class
+ru\mystudy\hooks\Hooks.class
+ru\mystudy\runner\RunTest.class
